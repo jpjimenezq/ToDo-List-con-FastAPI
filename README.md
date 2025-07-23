@@ -2,6 +2,8 @@
 
 Este es un proyecto simple de backend construido con **FastAPI** y **MySQL**, que permite gestionar una lista de tareas asociadas a usuarios. Es ideal como base para aprender a integrar una API REST con una base de datos relacional.
 
+<img width="1863" height="752" alt="image" src="https://github.com/user-attachments/assets/cdc324cf-8b8c-4d13-b314-1118070c58cf" />
+
 ---
 
 ## 🚀 Funcionalidades
