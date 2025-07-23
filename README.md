@@ -42,7 +42,7 @@ Este es un proyecto simple de backend construido con **FastAPI** y **MySQL**, qu
 
 **Asegúrate de tener una base de datos con las siguientes tablas**:
 
-    ```sql
+```sql
     CREATE TABLE usuarios (
         id INT PRIMARY KEY AUTO_INCREMENT,
         nombre VARCHAR(100),
@@ -56,15 +56,15 @@ Este es un proyecto simple de backend construido con **FastAPI** y **MySQL**, qu
         usuario_id INT,
         FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
     );
-    ```
+```
 
 ## ▶️ Ejecutar el proyecto
 
 **Usa uvicorn para iniciar el servidor local**:
 
-    ```bash
+```bash
     uvicorn main:app --reload
-    ```
+```
 
 Esto levantará el servidor en http://127.0.0.1:8000.
 
