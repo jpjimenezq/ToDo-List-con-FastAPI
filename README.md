@@ -25,18 +25,18 @@ Este es un proyecto simple de backend construido con **FastAPI** y **MySQL**, qu
 
 2. **Instala las dependencias (se recomienda usar un entorno virtual)**:
 
-    ```bash
-    pip install fastapi uvicorn mysql-connector-python python-dotenv
-    ```
+   ```bash
+   pip install fastapi uvicorn mysql-connector-python python-dotenv
+   ```
 
 3. **Configura tus variables de entorno en un archivo .env**:
 
-    ```env
-    HOST_DB=localhost
-    USER_DB=tu_usuario_mysql
-    PASSWORD_DB=tu_contraseña
-    DATABASE_DB=proyectos
-    ```
+   ```env
+   HOST_DB=localhost
+   USER_DB=tu_usuario_mysql
+   PASSWORD_DB=tu_contraseña
+   DATABASE_DB=proyectos
+   ```
 
 ## 🗄️ Estructura esperada de la base de datos
 
@@ -57,6 +57,7 @@ Este es un proyecto simple de backend construido con **FastAPI** y **MySQL**, qu
         FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
     );
     ```
+
 ## ▶️ Ejecutar el proyecto
 
 **Usa uvicorn para iniciar el servidor local**:
@@ -73,10 +74,12 @@ También puedes acceder a la documentación interactiva en:
 ## 📌 Endpoints principales
 
 🔹 **Usuarios**
+
 - POST /create-user: Crear un nuevo usuario
 - GET /users/{id}: Obtener un usuario por ID
 
 🔹 **Tareas**
+
 - POST /create-task: Crear una nueva tarea
 - GET /tasks/{id}: Obtener una tarea por ID
 - PUT /tasks/{id}: Actualizar parcialmente una tarea
